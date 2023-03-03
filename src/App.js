@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from './pages/LoginPage';
 import ScanQrPage from './pages/ScanQrPage';
 import DetailsPage from './pages/DetailsPage';
+import Myticket from './components/Myticket/Myticket';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<LoginPage />} />
           <Route path="/scanqr" element={<ScanQrPage />} />
           <Route path="/details" element={<DetailsPage />} />
+          <Route path="/Myticket" element={<Myticket />} />
       </Routes>
     </BrowserRouter>
     </div>
